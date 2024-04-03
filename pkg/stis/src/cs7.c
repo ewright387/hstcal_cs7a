@@ -62,6 +62,7 @@ static void printHelp(void)
 */
 
 int main (int argc, char **argv) {
+	printf("WARNING THIS IS A TEST FILE. IT IS MODIFIED!!! DO NOT USE TO CALIBRATE DATA")
 
 	int status;		/* zero is OK */
 	char *inlist;		/* list of input file names */
