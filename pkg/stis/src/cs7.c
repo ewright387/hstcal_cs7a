@@ -20,6 +20,7 @@ static void printSyntax(void)
     printf ("syntax:  cs7.e [-t] [-v] [-c] [-wgt_err] [-b blazeshift] [--version] [--gitinfo] input output\n");
     printf ("  command-line switches:  -x2d -sgeo -hel -flux -stat\n");
 }
+static int MkMapName (char *, char *);
 static void printHelp(void)
 {
     printSyntax();
@@ -66,7 +67,13 @@ int main (int argc, char **argv) {
 
 	int status;		/* zero is OK */
 	char *inlist;		/* list of input file names */
-	char *outlist;		/* list of output file names */
+	char *outlist;
+/* ------------------ */
+	char *maplist;
+	int x_incr, y_incr;	/* increment for printing coordinates */
+	int x_incr_next, y_incr_next;	/* flags for reading command line */
+/* ----- */
+	/* list of output file names */
 	int switch_on = 0;	/* was any switch specified? */
 	int sgeocorr = OMIT;	/* calibration switches */
 	int helcorr = OMIT;
@@ -80,10 +87,11 @@ int main (int argc, char **argv) {
 	int i, j;		/* loop indexes */
 	double blazeshift = NO_VALUE;
 
-	IRAFPointer i_imt, o_imt;	/* imt list pointers */
+	IRAFPointer i_imt, o_imt, m_imt;	/* imt list pointers */
 	char *input;		/* name of input science file */
 	char *output;		/* optional name of output file */
-	int n_in, n_out;	/* number of files in each list */
+	char *mapfile;
+	int n_in, n_out, n_map;	/* number of files in each list */
 	int n;
 
 	/* Input and output suffixes. */
@@ -103,14 +111,18 @@ int main (int argc, char **argv) {
 	inlist = calloc (STIS_LINE+1, sizeof (char));
 	addPtr(&ptrReg, inlist, &free);
 	outlist = calloc (STIS_LINE+1, sizeof (char));
-    addPtr(&ptrReg, outlist, &free);
+    	addPtr(&ptrReg, outlist, &free);
+	maplist = calloc (STIS_LINE+1, sizeof (char));
+	addPtr(&ptrReg, maplist, &free);
 	input = calloc (STIS_LINE+1, sizeof (char));
-    addPtr(&ptrReg, input, &free);
+    	addPtr(&ptrReg, input, &free);
 	output = calloc (STIS_LINE+1, sizeof (char));
-    addPtr(&ptrReg, output, &free);
+    	addPtr(&ptrReg, output, &free);
+	mapfile = calloc (STIS_LINE+1, sizeof (char));
+    	addPtr(&ptrReg, mapfile, &free);
 
 	if (inlist == NULL || outlist == NULL ||
-		input == NULL || output == NULL) {
+		input == NULL || output == NULL || maplist == NULL || mapfile == NULL) {
 	    printf ("ERROR:  Can't even begin:  out of memory.\n");
 	    freeOnExit(&ptrReg);
 	    exit (ERROR_RETURN);
@@ -179,6 +191,8 @@ int main (int argc, char **argv) {
 		strcpy (inlist, argv[i]);
 	    } else if (outlist[0] == '\0') {
 		strcpy (outlist, argv[i]);
+	    }else if (maplist[0] == '\0') {
+		strcpy (maplist, argv[i]);
 	    } else {
 		too_many = 1;
 	    }
@@ -200,16 +214,24 @@ int main (int argc, char **argv) {
 	/* Initialize the list of reference file keywords and names. */
 	InitRefFile (&refnames);
 	addPtr(&ptrReg, &refnames, &FreeRefFile);
+
 	/* Expand the templates. */
 	i_imt = c_imtopen (inlist);
 	addPtr(&ptrReg, i_imt, &c_imtclose);
 	o_imt = c_imtopen (outlist);
-    addPtr(&ptrReg, o_imt, &c_imtclose);
+    	addPtr(&ptrReg, o_imt, &c_imtclose);
+	m_imt = c_imtopen (maplist);
+	addPtr(&ptrReg, m_imt, &c_imtclose);
 	n_in = c_imtlen (i_imt);
 	n_out = c_imtlen (o_imt);
+	n_map = c_imtlen (m_imt);
 
 	/* The number of input and output files must be the same. */
 	if (CompareNumbers (n_in, n_out, "output")) {
+	    freeOnExit(&ptrReg);
+	    exit (ERROR_RETURN);
+	}
+	if (CompareNumbers (n_in, n_map, "mapfile")) {
 	    freeOnExit(&ptrReg);
 	    exit (ERROR_RETURN);
 	}
@@ -222,6 +244,11 @@ int main (int argc, char **argv) {
 		j = c_imtgetim (o_imt, output, STIS_LINE);
 	    else
 		output[0] = '\0';
+	
+		if (n_map > 0)
+		j = c_imtgetim (m_imt, mapfile, STIS_LINE);
+	    else
+		mapfile[0] = '\0';
 
 	    status = 0;
 	    if ((status = MkOutName (input, isuffix, osuffix, nsuffix,
@@ -230,6 +257,11 @@ int main (int argc, char **argv) {
 		printf ("Skipping %s\n", input);
 		continue;
 	    }
+		if (MkMapName (input, mapfile)) {
+		WhichError (status);
+		printf ("Skipping %s\n", input);
+		continue;
+	    }	
 
 	    /* Calibrate the current input file. */
 	    if ((status = CalStis7 (input, output,
@@ -269,4 +301,29 @@ static int CompareNumbers (int n_in, int n_out, char *str_out) {
 	}
 
 	return (0);
+}
+static int MkMapName (char *input, char *mapfile) {
+
+/* arguments:
+char *input        i: name of input FITS file
+char *mapfile     io: name of output text file for mapping info
+*/
+
+	extern int status;
+
+	int dotlocn;		/* location of '.' in input name */
+
+	if (mapfile[0] == '\0') {
+
+	    strcpy (mapfile, input);
+
+	    /* Find the extension (if any) on the file name. */
+	    dotlocn = FindExtn (mapfile);
+
+	    if (dotlocn >= 0)
+		mapfile[dotlocn] = '\0';	/* truncate at '.' */
+	    strcat (mapfile, ".txt");		/* default extension */
+	}
+
+	return (status = 0);
 }
