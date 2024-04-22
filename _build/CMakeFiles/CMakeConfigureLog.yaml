@@ -1,0 +1,1252 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Darwin - 22.6.0 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Applications/Xcode.app/Contents/Developer/usr/bin/gcc 
+      Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-isystem;/Users/ewright/miniconda3/envs/hstcal/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/ewright/hstcal_cs7a/_build/CMakeFiles/3.29.2/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-clang++ 
+      Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-stdlib=libc++;-fvisibility-inlines-hidden;-fmessage-length=0;-isystem;/Users/ewright/miniconda3/envs/hstcal/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /Users/ewright/hstcal_cs7a/_build/CMakeFiles/3.29.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-wtLSkf"
+      binary: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-wtLSkf"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-wtLSkf'
+        
+        Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_677ca/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_677ca.dir/build.make CMakeFiles/cmTC_677ca.dir/build
+        Building C object CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o -c /Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-wtLSkf -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /Users/ewright/miniconda3/envs/hstcal/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O2 -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-wtLSkf -ferror-limit 19 -stack-protector 2 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -vectorize-loops -vectorize-slp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o -x c /Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.6.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/ewright/miniconda3/envs/hstcal/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_677ca
+        /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E cmake_link_script CMakeFiles/cmTC_677ca.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib -v -Wl,-v CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o -o cmTC_677ca
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_677ca -search_paths_first -headerpad_max_install_names -rpath /Users/ewright/miniconda3/envs/hstcal/lib -v CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-857.1
+        BUILD 23:13:24 May  7 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:134 (message)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/ewright/miniconda3/envs/hstcal/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Users/ewright/miniconda3/envs/hstcal/include] ==> [/Users/ewright/miniconda3/envs/hstcal/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Users/ewright/miniconda3/envs/hstcal/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-wtLSkf']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_677ca/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_677ca.dir/build.make CMakeFiles/cmTC_677ca.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o -c /Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: x86_64-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-wtLSkf -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /Users/ewright/miniconda3/envs/hstcal/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O2 -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-wtLSkf -ferror-limit 19 -stack-protector 2 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -vectorize-loops -vectorize-slp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o -x c /Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.6.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/ewright/miniconda3/envs/hstcal/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_677ca]
+        ignore line: [/Users/ewright/miniconda3/envs/hstcal/bin/cmake -E cmake_link_script CMakeFiles/cmTC_677ca.dir/link.txt --verbose=1]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/gcc -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -Wl -rpath /Users/ewright/miniconda3/envs/hstcal/lib -v -Wl -v CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o -o cmTC_677ca]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: x86_64-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_677ca -search_paths_first -headerpad_max_install_names -rpath /Users/ewright/miniconda3/envs/hstcal/lib -v CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.0.0] ==> ignore
+          arg [13.3] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_677ca] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/Users/ewright/miniconda3/envs/hstcal/lib] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_677ca.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld  PROJECT:ld64-857.1
+      BUILD 23:13:24 May  7 2023
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 14.0.3, (clang-1403.0.22.14.1) (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 14.0.3 (tapi-1403.0.5.1)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-x32NrR"
+      binary: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-x32NrR"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/ewright/miniconda3/envs/hstcal/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-x32NrR'
+        
+        Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5315b/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5315b.dir/build.make CMakeFiles/cmTC_5315b.dir/build
+        Building CXX object CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o
+        /Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-clang++   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/ewright/miniconda3/envs/hstcal/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o -c /Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        clang version 16.0.6
+        Target: x86_64-apple-darwin13.4.0
+        Thread model: posix
+        InstalledDir: /Users/ewright/miniconda3/envs/hstcal/bin
+        clang-16: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         (in-process)
+         "/Users/ewright/miniconda3/envs/hstcal/bin/clang-16" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 609 -v -fcoverage-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-x32NrR -resource-dir /Users/ewright/miniconda3/envs/hstcal/lib/clang/16 -dependency-file CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isystem /Users/ewright/miniconda3/envs/hstcal/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Users/ewright/miniconda3/envs/hstcal/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/ewright/miniconda3/envs/hstcal/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -O2 -fdeprecated-macro -fdebug-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-x32NrR -ferror-limit 19 -fvisibility-inlines-hidden -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-apple-darwin22.6.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/ewright/miniconda3/envs/hstcal/include
+         /Users/ewright/miniconda3/envs/hstcal/bin/../include/c++/v1
+         /Users/ewright/miniconda3/envs/hstcal/lib/clang/16/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_5315b
+        /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5315b.dir/link.txt --verbose=1
+        /Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-clang++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/ewright/miniconda3/envs/hstcal/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib -v -Wl,-v CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5315b
+        clang version 16.0.6
+        Target: x86_64-apple-darwin13.4.0
+        Thread model: posix
+        InstalledDir: /Users/ewright/miniconda3/envs/hstcal/bin
+         "/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/ewright/miniconda3/envs/hstcal/lib/libLTO.16.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_5315b -search_paths_first -headerpad_max_install_names -rpath /Users/ewright/miniconda3/envs/hstcal/lib -v CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Users/ewright/miniconda3/envs/hstcal/lib/clang/16/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-711
+        BUILD 01:29:17 Mar 15 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+        Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:134 (message)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/ewright/miniconda3/envs/hstcal/include]
+          add: [/Users/ewright/miniconda3/envs/hstcal/bin/../include/c++/v1]
+          add: [/Users/ewright/miniconda3/envs/hstcal/lib/clang/16/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        end of search list found
+        collapse include dir [/Users/ewright/miniconda3/envs/hstcal/include] ==> [/Users/ewright/miniconda3/envs/hstcal/include]
+        collapse include dir [/Users/ewright/miniconda3/envs/hstcal/bin/../include/c++/v1] ==> [/Users/ewright/miniconda3/envs/hstcal/include/c++/v1]
+        collapse include dir [/Users/ewright/miniconda3/envs/hstcal/lib/clang/16/include] ==> [/Users/ewright/miniconda3/envs/hstcal/lib/clang/16/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        implicit include dirs: [/Users/ewright/miniconda3/envs/hstcal/include;/Users/ewright/miniconda3/envs/hstcal/include/c++/v1;/Users/ewright/miniconda3/envs/hstcal/lib/clang/16/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-x32NrR']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5315b/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5315b.dir/build.make CMakeFiles/cmTC_5315b.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-clang++   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/ewright/miniconda3/envs/hstcal/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o -c /Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/ewright/miniconda3/envs/hstcal/bin]
+        ignore line: [clang-16: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/ewright/miniconda3/envs/hstcal/bin/clang-16" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 609 -v -fcoverage-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-x32NrR -resource-dir /Users/ewright/miniconda3/envs/hstcal/lib/clang/16 -dependency-file CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isystem /Users/ewright/miniconda3/envs/hstcal/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Users/ewright/miniconda3/envs/hstcal/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/ewright/miniconda3/envs/hstcal/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -O2 -fdeprecated-macro -fdebug-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-x32NrR -ferror-limit 19 -fvisibility-inlines-hidden -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-apple-darwin22.6.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/ewright/miniconda3/envs/hstcal/include]
+        ignore line: [ /Users/ewright/miniconda3/envs/hstcal/bin/../include/c++/v1]
+        ignore line: [ /Users/ewright/miniconda3/envs/hstcal/lib/clang/16/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_5315b]
+        ignore line: [/Users/ewright/miniconda3/envs/hstcal/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5315b.dir/link.txt --verbose=1]
+        ignore line: [/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-clang++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/ewright/miniconda3/envs/hstcal/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -Wl -rpath /Users/ewright/miniconda3/envs/hstcal/lib -v -Wl -v CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5315b]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/ewright/miniconda3/envs/hstcal/bin]
+        link line: [ "/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/ewright/miniconda3/envs/hstcal/lib/libLTO.16.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_5315b -search_paths_first -headerpad_max_install_names -rpath /Users/ewright/miniconda3/envs/hstcal/lib -v CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Users/ewright/miniconda3/envs/hstcal/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+          arg [/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Users/ewright/miniconda3/envs/hstcal/lib/libLTO.16.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.0.0] ==> ignore
+          arg [13.3] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_5315b] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/Users/ewright/miniconda3/envs/hstcal/lib] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_5315b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Users/ewright/miniconda3/envs/hstcal/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/ewright/miniconda3/envs/hstcal/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        ignore line: [@(#)PROGRAM:ld  PROJECT:ld64-711]
+        ignore line: [BUILD 01:29:17 Mar 15 2024]
+        ignore line: [configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)]
+        ignore line: [Library search paths:]
+        ignore line: [	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        ignore line: [Framework search paths:]
+        ignore line: [	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        ignore line: []
+        ignore line: []
+        Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Users/ewright/miniconda3/envs/hstcal/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:40 (check_symbol_exists)"
+    checks:
+      - "Looking for snprintf"
+    directories:
+      source: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-AvbuZB"
+      binary: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-AvbuZB"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "HAVE_SNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-AvbuZB'
+        
+        Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_53f8e/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_53f8e.dir/build.make CMakeFiles/cmTC_53f8e.dir/build
+        Building C object CMakeFiles/cmTC_53f8e.dir/CheckSymbolExists.c.o
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include  -std=gnu99 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_53f8e.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_53f8e.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_53f8e.dir/CheckSymbolExists.c.o -c /Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-AvbuZB/CheckSymbolExists.c
+        Linking C executable cmTC_53f8e
+        /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53f8e.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib  CMakeFiles/cmTC_53f8e.dir/CheckSymbolExists.c.o -o cmTC_53f8e
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:41 (check_symbol_exists)"
+    checks:
+      - "Looking for strdup"
+    directories:
+      source: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-yx34E8"
+      binary: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-yx34E8"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "HAVE_STRDUP"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-yx34E8'
+        
+        Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_26148/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_26148.dir/build.make CMakeFiles/cmTC_26148.dir/build
+        Building C object CMakeFiles/cmTC_26148.dir/CheckSymbolExists.c.o
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include  -std=gnu99 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_26148.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_26148.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_26148.dir/CheckSymbolExists.c.o -c /Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-yx34E8/CheckSymbolExists.c
+        Linking C executable cmTC_26148
+        /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26148.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib  CMakeFiles/cmTC_26148.dir/CheckSymbolExists.c.o -o cmTC_26148
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:42 (check_symbol_exists)"
+    checks:
+      - "Looking for INT_MAX"
+    directories:
+      source: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-qKbknn"
+      binary: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-qKbknn"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "HAVE_INT_MAX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-qKbknn'
+        
+        Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6188e/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6188e.dir/build.make CMakeFiles/cmTC_6188e.dir/build
+        Building C object CMakeFiles/cmTC_6188e.dir/CheckSymbolExists.c.o
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include  -std=gnu99 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_6188e.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_6188e.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_6188e.dir/CheckSymbolExists.c.o -c /Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-qKbknn/CheckSymbolExists.c
+        Linking C executable cmTC_6188e
+        /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6188e.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib  CMakeFiles/cmTC_6188e.dir/CheckSymbolExists.c.o -o cmTC_6188e
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:43 (check_symbol_exists)"
+    checks:
+      - "Looking for PATH_MAX"
+    directories:
+      source: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-OfaIKw"
+      binary: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-OfaIKw"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "HAVE_LIMITS__PATH_MAX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-OfaIKw'
+        
+        Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b912a/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b912a.dir/build.make CMakeFiles/cmTC_b912a.dir/build
+        Building C object CMakeFiles/cmTC_b912a.dir/CheckSymbolExists.c.o
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include  -std=gnu99 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_b912a.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_b912a.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_b912a.dir/CheckSymbolExists.c.o -c /Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-OfaIKw/CheckSymbolExists.c
+        Linking C executable cmTC_b912a
+        /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b912a.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib  CMakeFiles/cmTC_b912a.dir/CheckSymbolExists.c.o -o cmTC_b912a
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:44 (check_symbol_exists)"
+    checks:
+      - "Looking for PATH_MAX"
+    directories:
+      source: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-XVPsyA"
+      binary: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-XVPsyA"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "HAVE_SYS_LIMITS__PATH_MAX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-XVPsyA'
+        
+        Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2a977/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2a977.dir/build.make CMakeFiles/cmTC_2a977.dir/build
+        Building C object CMakeFiles/cmTC_2a977.dir/CheckSymbolExists.c.o
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include  -std=gnu99 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_2a977.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_2a977.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_2a977.dir/CheckSymbolExists.c.o -c /Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-XVPsyA/CheckSymbolExists.c
+        /Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-XVPsyA/CheckSymbolExists.c:2:10: fatal error: 'sys/limits.h' file not found
+        #include <sys/limits.h>
+                 ^~~~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_2a977.dir/CheckSymbolExists.c.o] Error 1
+        make: *** [cmTC_2a977/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:45 (check_symbol_exists)"
+    checks:
+      - "Looking for PATH_MAX"
+    directories:
+      source: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-ih7s3L"
+      binary: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-ih7s3L"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "HAVE_SYS_SYSLIMITS__PATH_MAX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-ih7s3L'
+        
+        Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f9632/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f9632.dir/build.make CMakeFiles/cmTC_f9632.dir/build
+        Building C object CMakeFiles/cmTC_f9632.dir/CheckSymbolExists.c.o
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include  -std=gnu99 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_f9632.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f9632.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f9632.dir/CheckSymbolExists.c.o -c /Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-ih7s3L/CheckSymbolExists.c
+        Linking C executable cmTC_f9632
+        /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9632.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib  CMakeFiles/cmTC_f9632.dir/CheckSymbolExists.c.o -o cmTC_f9632
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/FindOpenMP.cmake:487 (_OPENMP_GET_FLAGS)"
+      - "ctegen2/CMakeLists.txt:3 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-P4YxpR"
+      binary: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-P4YxpR"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include -Wall -Wextra"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-P4YxpR'
+        
+        Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_84a24/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_84a24.dir/build.make CMakeFiles/cmTC_84a24.dir/build
+        Building C object CMakeFiles/cmTC_84a24.dir/OpenMPTryFlag.c.o
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include -Wall -Wextra -Xclang -fopenmp -v -std=gnu99 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_84a24.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_84a24.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_84a24.dir/OpenMPTryFlag.c.o -c /Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-P4YxpR/OpenMPTryFlag.c
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-P4YxpR -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_84a24.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_84a24.dir/OpenMPTryFlag.c.o -sys-header-deps -isystem /Users/ewright/miniconda3/envs/hstcal/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O2 -Wall -Wextra -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -std=gnu99 -fdebug-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-P4YxpR -ferror-limit 19 -stack-protector 2 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -vectorize-loops -vectorize-slp -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_84a24.dir/OpenMPTryFlag.c.o -x c /Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-P4YxpR/OpenMPTryFlag.c
+        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.6.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/ewright/miniconda3/envs/hstcal/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_84a24
+        /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84a24.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include -Wall -Wextra -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib  CMakeFiles/cmTC_84a24.dir/OpenMPTryFlag.c.o -o cmTC_84a24  -v -Wl,-v
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_84a24 -search_paths_first -headerpad_max_install_names -rpath /Users/ewright/miniconda3/envs/hstcal/lib CMakeFiles/cmTC_84a24.dir/OpenMPTryFlag.c.o -v -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-857.1
+        BUILD 23:13:24 May  7 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        Undefined symbols for architecture x86_64:
+          "_omp_get_max_threads", referenced from:
+              _main in OpenMPTryFlag.c.o
+        ld: symbol(s) not found for architecture x86_64
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_84a24] Error 1
+        make: *** [cmTC_84a24/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/FindOpenMP.cmake:317 (try_compile)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/FindOpenMP.cmake:487 (_OPENMP_GET_FLAGS)"
+      - "ctegen2/CMakeLists.txt:3 (find_package)"
+    description: "Trying C OpenMP compiler with '/Users/ewright/miniconda3/envs/hstcal/lib/libomp.dylib'"
+    directories:
+      source: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-nKxWDq"
+      binary: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-nKxWDq"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include -Wall -Wextra"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-nKxWDq'
+        
+        Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_82306/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_82306.dir/build.make CMakeFiles/cmTC_82306.dir/build
+        Building C object CMakeFiles/cmTC_82306.dir/OpenMPTryFlag.c.o
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include -Wall -Wextra -Xclang -fopenmp -v -std=gnu99 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_82306.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_82306.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_82306.dir/OpenMPTryFlag.c.o -c /Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-nKxWDq/OpenMPTryFlag.c
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-nKxWDq -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_82306.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_82306.dir/OpenMPTryFlag.c.o -sys-header-deps -isystem /Users/ewright/miniconda3/envs/hstcal/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O2 -Wall -Wextra -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -std=gnu99 -fdebug-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-nKxWDq -ferror-limit 19 -stack-protector 2 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -vectorize-loops -vectorize-slp -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_82306.dir/OpenMPTryFlag.c.o -x c /Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-nKxWDq/OpenMPTryFlag.c
+        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.6.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/ewright/miniconda3/envs/hstcal/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_82306
+        /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82306.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include -Wall -Wextra -Xclang -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib  CMakeFiles/cmTC_82306.dir/OpenMPTryFlag.c.o -o cmTC_82306  -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib -v -Wl,-v /Users/ewright/miniconda3/envs/hstcal/lib/libomp.dylib
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_82306 -search_paths_first -headerpad_max_install_names -rpath /Users/ewright/miniconda3/envs/hstcal/lib CMakeFiles/cmTC_82306.dir/OpenMPTryFlag.c.o -rpath /Users/ewright/miniconda3/envs/hstcal/lib -v /Users/ewright/miniconda3/envs/hstcal/lib/libomp.dylib -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-857.1
+        BUILD 23:13:24 May  7 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/FindOpenMP.cmake:487 (_OPENMP_GET_FLAGS)"
+      - "ctegen2/CMakeLists.txt:3 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-pZDX0m"
+      binary: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-pZDX0m"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/ewright/miniconda3/envs/hstcal/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibomp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-pZDX0m'
+        
+        Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d311e/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d311e.dir/build.make CMakeFiles/cmTC_d311e.dir/build
+        Building CXX object CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o
+        /Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-clang++   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/ewright/miniconda3/envs/hstcal/include -fopenmp=libomp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o -c /Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-pZDX0m/OpenMPTryFlag.cpp
+        clang version 16.0.6
+        Target: x86_64-apple-darwin13.4.0
+        Thread model: posix
+        InstalledDir: /Users/ewright/miniconda3/envs/hstcal/bin
+         (in-process)
+         "/Users/ewright/miniconda3/envs/hstcal/bin/clang-16" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 609 -v -fcoverage-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-pZDX0m -resource-dir /Users/ewright/miniconda3/envs/hstcal/lib/clang/16 -dependency-file CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isystem /Users/ewright/miniconda3/envs/hstcal/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Users/ewright/miniconda3/envs/hstcal/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/ewright/miniconda3/envs/hstcal/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -O2 -fdeprecated-macro -fdebug-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-pZDX0m -ferror-limit 19 -fvisibility-inlines-hidden -fopenmp -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o -x c++ /Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-pZDX0m/OpenMPTryFlag.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-apple-darwin22.6.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/ewright/miniconda3/envs/hstcal/include
+         /Users/ewright/miniconda3/envs/hstcal/bin/../include/c++/v1
+         /Users/ewright/miniconda3/envs/hstcal/lib/clang/16/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_d311e
+        /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d311e.dir/link.txt --verbose=1
+        /Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-clang++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/ewright/miniconda3/envs/hstcal/include -fopenmp=libomp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib  CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o -o cmTC_d311e  -v -Wl,-v
+        clang version 16.0.6
+        Target: x86_64-apple-darwin13.4.0
+        Thread model: posix
+        InstalledDir: /Users/ewright/miniconda3/envs/hstcal/bin
+         "/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/ewright/miniconda3/envs/hstcal/lib/libLTO.16.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_d311e -search_paths_first -headerpad_max_install_names -rpath /Users/ewright/miniconda3/envs/hstcal/lib CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o -v -lomp -rpath /Users/ewright/miniconda3/envs/hstcal/lib -L/Users/ewright/miniconda3/envs/hstcal/lib -lc++ -lSystem /Users/ewright/miniconda3/envs/hstcal/lib/clang/16/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-711
+        BUILD 01:29:17 Mar 15 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+        Library search paths:
+        	/Users/ewright/miniconda3/envs/hstcal/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/FindOpenMP.cmake:263 (message)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/FindOpenMP.cmake:487 (_OPENMP_GET_FLAGS)"
+      - "ctegen2/CMakeLists.txt:3 (find_package)"
+    message: |
+      Parsed CXX OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-pZDX0m']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d311e/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d311e.dir/build.make CMakeFiles/cmTC_d311e.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o]
+        ignore line: [/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-clang++   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/ewright/miniconda3/envs/hstcal/include -fopenmp=libomp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o -c /Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-pZDX0m/OpenMPTryFlag.cpp]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/ewright/miniconda3/envs/hstcal/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/ewright/miniconda3/envs/hstcal/bin/clang-16" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 609 -v -fcoverage-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-pZDX0m -resource-dir /Users/ewright/miniconda3/envs/hstcal/lib/clang/16 -dependency-file CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isystem /Users/ewright/miniconda3/envs/hstcal/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Users/ewright/miniconda3/envs/hstcal/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/ewright/miniconda3/envs/hstcal/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -O2 -fdeprecated-macro -fdebug-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-pZDX0m -ferror-limit 19 -fvisibility-inlines-hidden -fopenmp -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o -x c++ /Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-pZDX0m/OpenMPTryFlag.cpp]
+        ignore line: [clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-apple-darwin22.6.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/ewright/miniconda3/envs/hstcal/include]
+        ignore line: [ /Users/ewright/miniconda3/envs/hstcal/bin/../include/c++/v1]
+        ignore line: [ /Users/ewright/miniconda3/envs/hstcal/lib/clang/16/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_d311e]
+        ignore line: [/Users/ewright/miniconda3/envs/hstcal/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d311e.dir/link.txt --verbose=1]
+        ignore line: [/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-clang++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/ewright/miniconda3/envs/hstcal/include -fopenmp=libomp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -Wl -rpath /Users/ewright/miniconda3/envs/hstcal/lib  CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o -o cmTC_d311e  -v -Wl -v]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/ewright/miniconda3/envs/hstcal/bin]
+        link line: [ "/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/ewright/miniconda3/envs/hstcal/lib/libLTO.16.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_d311e -search_paths_first -headerpad_max_install_names -rpath /Users/ewright/miniconda3/envs/hstcal/lib CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o -v -lomp -rpath /Users/ewright/miniconda3/envs/hstcal/lib -L/Users/ewright/miniconda3/envs/hstcal/lib -lc++ -lSystem /Users/ewright/miniconda3/envs/hstcal/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+          arg [/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Users/ewright/miniconda3/envs/hstcal/lib/libLTO.16.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.0.0] ==> ignore
+          arg [13.3] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d311e] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/Users/ewright/miniconda3/envs/hstcal/lib] ==> ignore
+          arg [CMakeFiles/cmTC_d311e.dir/OpenMPTryFlag.cpp.o] ==> ignore
+          arg [-v] ==> ignore
+          arg [-lomp] ==> lib [omp]
+          arg [-rpath] ==> ignore
+          arg [/Users/ewright/miniconda3/envs/hstcal/lib] ==> ignore
+          arg [-L/Users/ewright/miniconda3/envs/hstcal/lib] ==> dir [/Users/ewright/miniconda3/envs/hstcal/lib]
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Users/ewright/miniconda3/envs/hstcal/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/ewright/miniconda3/envs/hstcal/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/Users/ewright/miniconda3/envs/hstcal/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Users/ewright/miniconda3/envs/hstcal/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/ewright/miniconda3/envs/hstcal/lib] ==> [/Users/ewright/miniconda3/envs/hstcal/lib]
+        collapse library dir [/Users/ewright/miniconda3/envs/hstcal/lib] ==> [/Users/ewright/miniconda3/envs/hstcal/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [omp;c++]
+        implicit objs: []
+        implicit dirs: [/Users/ewright/miniconda3/envs/hstcal/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/FindOpenMP.cmake:421 (try_compile)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/FindOpenMP.cmake:561 (_OPENMP_GET_SPEC_DATE)"
+      - "ctegen2/CMakeLists.txt:3 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-IRsZhq"
+      binary: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-IRsZhq"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include -Wall -Wextra"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-IRsZhq'
+        
+        Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_040a8/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_040a8.dir/build.make CMakeFiles/cmTC_040a8.dir/build
+        Building C object CMakeFiles/cmTC_040a8.dir/OpenMPCheckVersion.c.o
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include -Wall -Wextra -Xclang -fopenmp -std=gnu99 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_040a8.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_040a8.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_040a8.dir/OpenMPCheckVersion.c.o -c /Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-IRsZhq/OpenMPCheckVersion.c
+        Linking C executable cmTC_040a8
+        /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E cmake_link_script CMakeFiles/cmTC_040a8.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/usr/bin/gcc -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/ewright/miniconda3/envs/hstcal/include -Wall -Wextra -Xclang -fopenmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib  CMakeFiles/cmTC_040a8.dir/OpenMPCheckVersion.c.o -o cmTC_040a8
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineFortranCompiler.cmake:186 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "lib/CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+      Compiler: /Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-gfortran 
+      Build flags: -Wall;-Wextra
+      Id flags: -v 
+      
+      The output was:
+      0
+      Driving: /Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-gfortran -Wall -Wextra -v CMakeFortranCompilerId.F --sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mmacosx-version-min=13.0.0 -asm_macosx_version_min=13.0 -nodefaultexport -l gfortran -shared-libgcc
+      Using built-in specs.
+      COLLECT_GCC=/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-gfortran
+      COLLECT_LTO_WRAPPER=/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/lto-wrapper
+      Target: x86_64-apple-darwin13.4.0
+      Configured with: ../configure --prefix=/Users/ewright/miniconda3/envs/hstcal --build=x86_64-apple-darwin13.4.0 --host=x86_64-apple-darwin13.4.0 --target=x86_64-apple-darwin13.4.0 --with-libiconv-prefix=/Users/ewright/miniconda3/envs/hstcal --enable-languages=fortran --disable-multilib --enable-checking=release --disable-bootstrap --disable-libssp --with-gmp=/Users/ewright/miniconda3/envs/hstcal --with-mpfr=/Users/ewright/miniconda3/envs/hstcal --with-mpc=/Users/ewright/miniconda3/envs/hstcal --with-isl=/Users/ewright/miniconda3/envs/hstcal --enable-darwin-at-rpath --with-native-system-header-dir=/Applications/Xcode_13.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include
+      Thread model: posix
+      Supported LTO compression algorithms: zlib
+      gcc version 12.3.0 (GCC) 
+      COLLECT_GCC_OPTIONS='-Wall' '-Wextra' '-v' '--sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'a-'
+       /Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/var/folders/zb/g32rhtw9537494qwwt5m8lgh0005kz/T//ccwe6Y89.f90 -quiet -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -D__DYNAMIC__ CMakeFortranCompilerId.F -fPIC -quiet -dumpdir a- -dumpbase CMakeFortranCompilerId.F -dumpbase-ext .F -mmacosx-version-min=13.0.0 -mtune=core2 -Wall -Wextra -version -fintrinsic-modules-path /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/finclude -o /var/folders/zb/g32rhtw9537494qwwt5m8lgh0005kz/T//ccseJ5Uy.s
+      GNU Fortran (GCC) version 12.3.0 (x86_64-apple-darwin13.4.0)
+      	compiled by GNU C version Clang 15.0.7, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-IMath-32
+      
+      warning: GMP header version 6.2.1 differs from library version 6.3.0.
+      warning: MPFR header version 4.2.0 differs from library version 4.2.1.
+      GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+      ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+      ignoring nonexistent directory "/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/../../../../x86_64-apple-darwin13.4.0/include"
+      ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Applications/Xcode_13.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include"
+      #include "..." search starts here:
+      #include <...> search starts here:
+       /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/finclude
+       /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/include
+       /Users/ewright/miniconda3/envs/hstcal/include
+       /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/include-fixed
+      End of search list.
+      GNU Fortran2008 (GCC) version 12.3.0 (x86_64-apple-darwin13.4.0)
+      	compiled by GNU C version Clang 15.0.7, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-IMath-32
+      
+      warning: GMP header version 6.2.1 differs from library version 6.3.0.
+      warning: MPFR header version 4.2.0 differs from library version 4.2.1.
+      GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+      COLLECT_GCC_OPTIONS='-Wall' '-Wextra' '-v' '--sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'a-'
+       /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/as -arch x86_64 -v -mmacosx-version-min=13.0 -force_cpusubtype_ALL -o /var/folders/zb/g32rhtw9537494qwwt5m8lgh0005kz/T//ccLA4ikv.o /var/folders/zb/g32rhtw9537494qwwt5m8lgh0005kz/T//ccseJ5Uy.s
+      clang version 16.0.6
+      Target: x86_64-apple-darwin22.6.0
+      Thread model: posix
+      InstalledDir: /Users/ewright/miniconda3/envs/hstcal/bin
+       (in-process)
+       "/Users/ewright/miniconda3/envs/hstcal/bin/clang-16" -cc1as -triple x86_64-apple-macosx13.0.0 -target-sdk-version=13.3 -filetype obj -main-file-name ccseJ5Uy.s -target-cpu penryn -fdebug-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/3.29.2/CompilerIdFortran -dwarf-debug-producer "clang version 16.0.6" -dwarf-version=4 -mrelocation-model pic -o /var/folders/zb/g32rhtw9537494qwwt5m8lgh0005kz/T//ccLA4ikv.o /var/folders/zb/g32rhtw9537494qwwt5m8lgh0005kz/T//ccseJ5Uy.s
+      Reading specs from /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/libgfortran.spec
+      rename spec lib to liborig
+      COLLECT_GCC_OPTIONS='-Wall' '-Wextra' '-v' '--sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'a-'
+      COMPILER_PATH=/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/:/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/
+      LIBRARY_PATH=/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/../../../
+      COLLECT_GCC_OPTIONS='-Wall' '-Wextra' '-v' '--sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'a.'
+       /Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/collect2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/ -dynamic -arch x86_64 -macosx_version_min 13.0.0 -o a.out -L/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0 -L/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/../../.. /var/folders/zb/g32rhtw9537494qwwt5m8lgh0005kz/T//ccLA4ikv.o -lgfortran -lemutls_w -lgcc -lquadmath -lm -lemutls_w -lgcc -lSystem -rpath /Users/ewright/miniconda3/envs/hstcal/lib -no_compact_unwind
+      
+      
+      Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+      
+      The Fortran compiler identification is GNU, found in:
+        /Users/ewright/hstcal_cs7a/_build/CMakeFiles/3.29.2/CompilerIdFortran/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "lib/CMakeLists.txt:1 (project)"
+    checks:
+      - "Detecting Fortran compiler ABI info"
+    directories:
+      source: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-SC7AeH"
+      binary: "/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-SC7AeH"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib"
+      CMAKE_Fortran_FLAGS: " -Wall -Wextra"
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "CMAKE_Fortran_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-SC7AeH'
+        
+        Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b1e0f/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b1e0f.dir/build.make CMakeFiles/cmTC_b1e0f.dir/build
+        Building Fortran object CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o
+        /Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-gfortran   -Wall -Wextra  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk   -v -Wl,-v -c /Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o
+        Using built-in specs.
+        COLLECT_GCC=/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-gfortran
+        Target: x86_64-apple-darwin13.4.0
+        Configured with: ../configure --prefix=/Users/ewright/miniconda3/envs/hstcal --build=x86_64-apple-darwin13.4.0 --host=x86_64-apple-darwin13.4.0 --target=x86_64-apple-darwin13.4.0 --with-libiconv-prefix=/Users/ewright/miniconda3/envs/hstcal --enable-languages=fortran --disable-multilib --enable-checking=release --disable-bootstrap --disable-libssp --with-gmp=/Users/ewright/miniconda3/envs/hstcal --with-mpfr=/Users/ewright/miniconda3/envs/hstcal --with-mpc=/Users/ewright/miniconda3/envs/hstcal --with-isl=/Users/ewright/miniconda3/envs/hstcal --enable-darwin-at-rpath --with-native-system-header-dir=/Applications/Xcode_13.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-Wall' '-Wextra' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_b1e0f.dir/'
+         /Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/f951 /Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeFortranCompilerABI.F90 -cpp=/var/folders/zb/g32rhtw9537494qwwt5m8lgh0005kz/T//cc9GbMYp.f90 -quiet -v -D__DYNAMIC__ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk /Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeFortranCompilerABI.F90 -fPIC -quiet -dumpdir CMakeFiles/cmTC_b1e0f.dir/ -dumpbase CMakeFortranCompilerABI.F90.F90 -dumpbase-ext .F90 -mmacosx-version-min=13.0.0 -mtune=core2 -Wall -Wextra -version -fintrinsic-modules-path /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/finclude -o /var/folders/zb/g32rhtw9537494qwwt5m8lgh0005kz/T//cc8wfXvm.s
+        GNU Fortran (GCC) version 12.3.0 (x86_64-apple-darwin13.4.0)
+        	compiled by GNU C version Clang 15.0.7, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-IMath-32
+        
+        warning: GMP header version 6.2.1 differs from library version 6.3.0.
+        warning: MPFR header version 4.2.0 differs from library version 4.2.1.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/../../../../x86_64-apple-darwin13.4.0/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Applications/Xcode_13.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/finclude
+         /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/include
+         /Users/ewright/miniconda3/envs/hstcal/include
+         /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/include-fixed
+        End of search list.
+        GNU Fortran2008 (GCC) version 12.3.0 (x86_64-apple-darwin13.4.0)
+        	compiled by GNU C version Clang 15.0.7, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-IMath-32
+        
+        warning: GMP header version 6.2.1 differs from library version 6.3.0.
+        warning: MPFR header version 4.2.0 differs from library version 4.2.1.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        COLLECT_GCC_OPTIONS='-Wall' '-Wextra' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_b1e0f.dir/'
+         /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/as -arch x86_64 -v -mmacosx-version-min=13.0 -force_cpusubtype_ALL -o CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o /var/folders/zb/g32rhtw9537494qwwt5m8lgh0005kz/T//cc8wfXvm.s
+        clang version 16.0.6
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Users/ewright/miniconda3/envs/hstcal/bin
+         (in-process)
+         "/Users/ewright/miniconda3/envs/hstcal/bin/clang-16" -cc1as -triple x86_64-apple-macosx13.0.0 -target-sdk-version=13.3 -filetype obj -main-file-name cc8wfXvm.s -target-cpu penryn -fdebug-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-SC7AeH -dwarf-debug-producer "clang version 16.0.6" -dwarf-version=4 -mrelocation-model pic -o CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o /var/folders/zb/g32rhtw9537494qwwt5m8lgh0005kz/T//cc8wfXvm.s
+        COMPILER_PATH=/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/:/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/
+        LIBRARY_PATH=/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/../../../
+        COLLECT_GCC_OPTIONS='-Wall' '-Wextra' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.'
+        Linking Fortran executable cmTC_b1e0f
+        /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1e0f.dir/link.txt --verbose=1
+        /Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-gfortran -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib -v -Wl,-v  -Wall -Wextra  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o -o cmTC_b1e0f
+        Driving: /Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-gfortran -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib -v -Wl,-v -Wall -Wextra -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o -o cmTC_b1e0f -mmacosx-version-min=13.0.0 -asm_macosx_version_min=13.0 -nodefaultexport -l gfortran -shared-libgcc
+        Using built-in specs.
+        COLLECT_GCC=/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-gfortran
+        COLLECT_LTO_WRAPPER=/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/lto-wrapper
+        Target: x86_64-apple-darwin13.4.0
+        Configured with: ../configure --prefix=/Users/ewright/miniconda3/envs/hstcal --build=x86_64-apple-darwin13.4.0 --host=x86_64-apple-darwin13.4.0 --target=x86_64-apple-darwin13.4.0 --with-libiconv-prefix=/Users/ewright/miniconda3/envs/hstcal --enable-languages=fortran --disable-multilib --enable-checking=release --disable-bootstrap --disable-libssp --with-gmp=/Users/ewright/miniconda3/envs/hstcal --with-mpfr=/Users/ewright/miniconda3/envs/hstcal --with-mpc=/Users/ewright/miniconda3/envs/hstcal --with-isl=/Users/ewright/miniconda3/envs/hstcal --enable-darwin-at-rpath --with-native-system-header-dir=/Applications/Xcode_13.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (GCC) 
+        Reading specs from /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/libgfortran.spec
+        rename spec lib to liborig
+        COLLECT_GCC_OPTIONS='-v' '-Wall' '-Wextra' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk' '-o' 'cmTC_b1e0f' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'cmTC_b1e0f-'
+        COMPILER_PATH=/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/:/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/
+        LIBRARY_PATH=/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-Wall' '-Wextra' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk' '-o' 'cmTC_b1e0f' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'cmTC_b1e0f.'
+         /Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/collect2 -dynamic -arch x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -macosx_version_min 13.0.0 -o cmTC_b1e0f -L/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0 -L/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/../../.. -rpath /Users/ewright/miniconda3/envs/hstcal/lib -v CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lemutls_w -lgcc -lquadmath -lm -lemutls_w -lgcc -lSystem -rpath /Users/ewright/miniconda3/envs/hstcal/lib -no_compact_unwind
+        collect2 version 12.3.0
+        /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/ld -dynamic -arch x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -macosx_version_min 13.0.0 -o cmTC_b1e0f -L/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0 -L/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/../../.. -rpath /Users/ewright/miniconda3/envs/hstcal/lib -v CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lemutls_w -lgcc -lquadmath -lm -lemutls_w -lgcc -lSystem -rpath /Users/ewright/miniconda3/envs/hstcal/lib -no_compact_unwind
+        @(#)PROGRAM:ld  PROJECT:ld64-711
+        BUILD 01:29:17 Mar 15 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+        Library search paths:
+        	/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0
+        	/Users/ewright/miniconda3/envs/hstcal/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:134 (message)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "lib/CMakeLists.txt:1 (project)"
+    message: |
+      Parsed Fortran implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/finclude]
+          add: [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/include]
+          add: [/Users/ewright/miniconda3/envs/hstcal/include]
+          add: [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/include-fixed]
+        end of search list found
+        collapse include dir [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/finclude] ==> [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/finclude]
+        collapse include dir [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/include] ==> [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/include]
+        collapse include dir [/Users/ewright/miniconda3/envs/hstcal/include] ==> [/Users/ewright/miniconda3/envs/hstcal/include]
+        collapse include dir [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/include-fixed] ==> [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/include-fixed]
+        implicit include dirs: [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/finclude;/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/include;/Users/ewright/miniconda3/envs/hstcal/include;/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "lib/CMakeLists.txt:1 (project)"
+    message: |
+      Parsed Fortran implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-SC7AeH']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Users/ewright/miniconda3/envs/hstcal/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b1e0f/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b1e0f.dir/build.make CMakeFiles/cmTC_b1e0f.dir/build]
+        ignore line: [Building Fortran object CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o]
+        ignore line: [/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-gfortran   -Wall -Wextra  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk   -v -Wl -v -c /Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-gfortran]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
+        ignore line: [Configured with: ../configure --prefix=/Users/ewright/miniconda3/envs/hstcal --build=x86_64-apple-darwin13.4.0 --host=x86_64-apple-darwin13.4.0 --target=x86_64-apple-darwin13.4.0 --with-libiconv-prefix=/Users/ewright/miniconda3/envs/hstcal --enable-languages=fortran --disable-multilib --enable-checking=release --disable-bootstrap --disable-libssp --with-gmp=/Users/ewright/miniconda3/envs/hstcal --with-mpfr=/Users/ewright/miniconda3/envs/hstcal --with-mpc=/Users/ewright/miniconda3/envs/hstcal --with-isl=/Users/ewright/miniconda3/envs/hstcal --enable-darwin-at-rpath --with-native-system-header-dir=/Applications/Xcode_13.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-Wextra' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_b1e0f.dir/']
+        ignore line: [ /Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/f951 /Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeFortranCompilerABI.F90 -cpp=/var/folders/zb/g32rhtw9537494qwwt5m8lgh0005kz/T//cc9GbMYp.f90 -quiet -v -D__DYNAMIC__ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk /Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeFortranCompilerABI.F90 -fPIC -quiet -dumpdir CMakeFiles/cmTC_b1e0f.dir/ -dumpbase CMakeFortranCompilerABI.F90.F90 -dumpbase-ext .F90 -mmacosx-version-min=13.0.0 -mtune=core2 -Wall -Wextra -version -fintrinsic-modules-path /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/finclude -o /var/folders/zb/g32rhtw9537494qwwt5m8lgh0005kz/T//cc8wfXvm.s]
+        ignore line: [GNU Fortran (GCC) version 12.3.0 (x86_64-apple-darwin13.4.0)]
+        ignore line: [	compiled by GNU C version Clang 15.0.7  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-IMath-32]
+        ignore line: []
+        ignore line: [warning: GMP header version 6.2.1 differs from library version 6.3.0.]
+        ignore line: [warning: MPFR header version 4.2.0 differs from library version 4.2.1.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/../../../../x86_64-apple-darwin13.4.0/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Applications/Xcode_13.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/finclude]
+        ignore line: [ /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/include]
+        ignore line: [ /Users/ewright/miniconda3/envs/hstcal/include]
+        ignore line: [ /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [GNU Fortran2008 (GCC) version 12.3.0 (x86_64-apple-darwin13.4.0)]
+        ignore line: [	compiled by GNU C version Clang 15.0.7  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-IMath-32]
+        ignore line: []
+        ignore line: [warning: GMP header version 6.2.1 differs from library version 6.3.0.]
+        ignore line: [warning: MPFR header version 4.2.0 differs from library version 4.2.1.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-Wextra' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_b1e0f.dir/']
+        ignore line: [ /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/as -arch x86_64 -v -mmacosx-version-min=13.0 -force_cpusubtype_ALL -o CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o /var/folders/zb/g32rhtw9537494qwwt5m8lgh0005kz/T//cc8wfXvm.s]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/ewright/miniconda3/envs/hstcal/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/ewright/miniconda3/envs/hstcal/bin/clang-16" -cc1as -triple x86_64-apple-macosx13.0.0 -target-sdk-version=13.3 -filetype obj -main-file-name cc8wfXvm.s -target-cpu penryn -fdebug-compilation-dir=/Users/ewright/hstcal_cs7a/_build/CMakeFiles/CMakeScratch/TryCompile-SC7AeH -dwarf-debug-producer "clang version 16.0.6" -dwarf-version=4 -mrelocation-model pic -o CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o /var/folders/zb/g32rhtw9537494qwwt5m8lgh0005kz/T//cc8wfXvm.s]
+        ignore line: [COMPILER_PATH=/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/:/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/]
+        ignore line: [LIBRARY_PATH=/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-Wextra' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=13.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.']
+        ignore line: [Linking Fortran executable cmTC_b1e0f]
+        ignore line: [/Users/ewright/miniconda3/envs/hstcal/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1e0f.dir/link.txt --verbose=1]
+        ignore line: [/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-gfortran -Wl -rpath /Users/ewright/miniconda3/envs/hstcal/lib -v -Wl -v  -Wall -Wextra  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o -o cmTC_b1e0f]
+        ignore line: [Driving: /Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-gfortran -Wl -rpath /Users/ewright/miniconda3/envs/hstcal/lib -v -Wl -v -Wall -Wextra -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o -o cmTC_b1e0f -mmacosx-version-min=13.0.0 -asm_macosx_version_min=13.0 -nodefaultexport -l gfortran -shared-libgcc]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Users/ewright/miniconda3/envs/hstcal/bin/x86_64-apple-darwin13.4.0-gfortran]
+        ignore line: [COLLECT_LTO_WRAPPER=/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/lto-wrapper]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
+        ignore line: [Configured with: ../configure --prefix=/Users/ewright/miniconda3/envs/hstcal --build=x86_64-apple-darwin13.4.0 --host=x86_64-apple-darwin13.4.0 --target=x86_64-apple-darwin13.4.0 --with-libiconv-prefix=/Users/ewright/miniconda3/envs/hstcal --enable-languages=fortran --disable-multilib --enable-checking=release --disable-bootstrap --disable-libssp --with-gmp=/Users/ewright/miniconda3/envs/hstcal --with-mpfr=/Users/ewright/miniconda3/envs/hstcal --with-mpc=/Users/ewright/miniconda3/envs/hstcal --with-isl=/Users/ewright/miniconda3/envs/hstcal --enable-darwin-at-rpath --with-native-system-header-dir=/Applications/Xcode_13.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (GCC) ]
+        ignore line: [Reading specs from /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/libgfortran.spec]
+        ignore line: [rename spec lib to liborig]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-Wall' '-Wextra' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk' '-o' 'cmTC_b1e0f' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'cmTC_b1e0f-']
+        ignore line: [COMPILER_PATH=/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/:/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/]
+        ignore line: [LIBRARY_PATH=/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/:/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-Wall' '-Wextra' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk' '-o' 'cmTC_b1e0f' '-mmacosx-version-min=13.0.0' '-asm_macosx_version_min=13.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'cmTC_b1e0f.']
+        link line: [ /Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/collect2 -dynamic -arch x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -macosx_version_min 13.0.0 -o cmTC_b1e0f -L/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0 -L/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/../../.. -rpath /Users/ewright/miniconda3/envs/hstcal/lib -v CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lemutls_w -lgcc -lquadmath -lm -lemutls_w -lgcc -lSystem -rpath /Users/ewright/miniconda3/envs/hstcal/lib -no_compact_unwind]
+          arg [/Users/ewright/miniconda3/envs/hstcal/libexec/gcc/x86_64-apple-darwin13.4.0/12.3.0/collect2] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+          arg [-macosx_version_min] ==> ignore
+          arg [13.0.0] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b1e0f] ==> ignore
+          arg [-L/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0] ==> dir [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0]
+          arg [-L/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/../../..] ==> dir [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/../../..]
+          arg [-rpath] ==> ignore
+          arg [/Users/ewright/miniconda3/envs/hstcal/lib] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o] ==> ignore
+          arg [-lgfortran] ==> lib [gfortran]
+          arg [-lemutls_w] ==> lib [emutls_w]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lquadmath] ==> lib [quadmath]
+          arg [-lm] ==> lib [m]
+          arg [-lemutls_w] ==> lib [emutls_w]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lSystem] ==> lib [System]
+          arg [-rpath] ==> ignore
+          arg [/Users/ewright/miniconda3/envs/hstcal/lib] ==> ignore
+          arg [-no_compact_unwind] ==> ignore
+        ignore line: [collect2 version 12.3.0]
+        ignore line: [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/ld -dynamic -arch x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -macosx_version_min 13.0.0 -o cmTC_b1e0f -L/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0 -L/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/../../.. -rpath /Users/ewright/miniconda3/envs/hstcal/lib -v CMakeFiles/cmTC_b1e0f.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lemutls_w -lgcc -lquadmath -lm -lemutls_w -lgcc -lSystem -rpath /Users/ewright/miniconda3/envs/hstcal/lib -no_compact_unwind]
+        linker tool for 'Fortran': /Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/ld
+        Library search paths: [;/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0;/Users/ewright/miniconda3/envs/hstcal/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        collapse library dir [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0] ==> [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0]
+        collapse library dir [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/../../..] ==> [/Users/ewright/miniconda3/envs/hstcal/lib]
+        collapse library dir [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0] ==> [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0]
+        collapse library dir [/Users/ewright/miniconda3/envs/hstcal/lib] ==> [/Users/ewright/miniconda3/envs/hstcal/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [gfortran;emutls_w;gcc;quadmath;m;emutls_w;gcc]
+        implicit objs: []
+        implicit dirs: [/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0;/Users/ewright/miniconda3/envs/hstcal/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "/Users/ewright/miniconda3/envs/hstcal/share/cmake-3.29/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "lib/CMakeLists.txt:1 (project)"
+    message: |
+      Running the Fortran compiler's linker: "/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/ld" "-v"
+      @(#)PROGRAM:ld  PROJECT:ld64-711
+      BUILD 01:29:17 Mar 15 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+      LTO support using: LLVM version 16.0.6 (static support for 29, runtime is 29)
+      TAPI support using: TAPI version 11.0.0 (tapi-1100.0.11)
+...

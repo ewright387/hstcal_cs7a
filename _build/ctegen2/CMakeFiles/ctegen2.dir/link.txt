@@ -1,0 +1,2 @@
+/Users/ewright/miniconda3/envs/hstcal/bin/ar qc libhstctegen2.a CMakeFiles/ctegen2.dir/ctegen2.c.o CMakeFiles/ctegen2.dir/ctehelpers.c.o
+/Users/ewright/miniconda3/envs/hstcal/bin/ranlib libhstctegen2.a
