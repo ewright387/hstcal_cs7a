@@ -213,6 +213,14 @@ SingleGroup *out           o: output data
 
 	/* Fill each pixel of the output image. */
 
+
+	/*Create the file and give it a header+ columns*/
+	FILE *file = fopen('map.txt','w');
+	const char *x = "INPUTFILE";
+	const char *y = "OUTPUTFILE";
+
+	fprintf(file,"# input = %s, output = %s\n#",x,y);
+	fprintf(file,"%-10s %-10s %-10s %-10s\n", "ix", "iy", "ox", "oy");
 	for (j = 0;  j < out->sci.data.ny;  j++) {
 
 	    /* approximate; in reference coordinates */
@@ -237,6 +245,8 @@ SingleGroup *out           o: output data
 
 		ox = (double) i;
 		oy = (double) j;
+		//add values to the file (.4 means 4 decimal places)
+		fprintf(file, "%.4f %.4f %.4f %.4f\n",ix,iy,ox,oy);
 
 		/* Convert to physical coordinates. */
 		PixelPhys (coord_o, ox, oy, sts->hfactor, &wl, &dwl, &s, &ds);

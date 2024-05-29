@@ -5,7 +5,7 @@
 # include <string.h>
 
 
-#include "hstcal_memory.h"
+# include "hstcal_memory.h"
 # include "c_iraf.h"		/* for c_irafinit */
 # include "ximio.h"
 
@@ -63,7 +63,7 @@ static void printHelp(void)
 */
 
 int main (int argc, char **argv) {
-	printf("WARNING THIS IS A TEST FILE. IT IS MODIFIED!!! DO NOT USE TO CALIBRATE DATA")
+	printf("WARNING THIS IS A TEST FILE. IT IS MODIFIED!!! DO NOT USE TO CALIBRATE DATA");
 
 	int status;		/* zero is OK */
 	char *inlist;		/* list of input file names */
@@ -264,7 +264,7 @@ int main (int argc, char **argv) {
 	    }	
 
 	    /* Calibrate the current input file. */
-	    if ((status = CalStis7 (input, output,
+	    if ((status = CalStis7 (input, output,mapfile, /*mapfile addition*/
 			sgeocorr, helcorr, fluxcorr, statcorr,
 			&refnames, printtime, verbose, center_target,
                                     blazeshift, err_algorithm))) {
@@ -318,10 +318,10 @@ char *mapfile     io: name of output text file for mapping info
 	    strcpy (mapfile, input);
 
 	    /* Find the extension (if any) on the file name. */
-	    dotlocn = FindExtn (mapfile);
+	   /* dotlocn = FindExtn(mapfile);*/
 
-	    if (dotlocn >= 0)
-		mapfile[dotlocn] = '\0';	/* truncate at '.' */
+	    /*if (dotlocn >= 0)
+			mapfile[dotlocn] = '\0';	/* truncate at '.' */
 	    strcat (mapfile, ".txt");		/* default extension */
 	}
 

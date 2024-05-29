@@ -76,7 +76,7 @@ CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_DLLTOOL:FILEPATH=/Users/ewright/miniconda3/envs/hstcal/bin/llvm-dlltool
 
 //Flags used by the linker during all build types.
-CMAKE_EXE_LINKER_FLAGS:STRING=-Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib
+CMAKE_EXE_LINKER_FLAGS:STRING=-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib -L/Users/ewright/miniconda3/envs/hstcal/lib
 
 //Flags used by the linker during DEBUG builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
@@ -129,7 +129,7 @@ CMAKE_INSTALL_NAME_TOOL:FILEPATH=/Users/ewright/miniconda3/envs/hstcal/bin/insta
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
 //No help, variable specified on the command line.
-CMAKE_INSTAL_PREFIX:UNINITIALIZED=/Users/ewright/hstcal
+CMAKE_INSTAL_PREFIX:UNINITIALIZED=/Users/ewright/hstcal_cs7a
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/Applications/Xcode.app/Contents/Developer/usr/bin/ld
@@ -139,7 +139,7 @@ CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
 
 //Flags used by the linker during the creation of modules during
 // all build types.
-CMAKE_MODULE_LINKER_FLAGS:STRING=-Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib
+CMAKE_MODULE_LINKER_FLAGS:STRING=-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib -L/Users/ewright/miniconda3/envs/hstcal/lib
 
 //Flags used by the linker during the creation of modules during
 // DEBUG builds.
@@ -194,7 +194,7 @@ CMAKE_READELF:FILEPATH=/Users/ewright/miniconda3/envs/hstcal/bin/llvm-readelf
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
-CMAKE_SHARED_LINKER_FLAGS:STRING=-Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib
+CMAKE_SHARED_LINKER_FLAGS:STRING=-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/ewright/miniconda3/envs/hstcal/lib -L/Users/ewright/miniconda3/envs/hstcal/lib
 
 //Flags used by the linker during the creation of shared libraries
 // during DEBUG builds.
@@ -288,7 +288,7 @@ CPACK_BINARY_TGZ:BOOL=ON
 CPACK_BINARY_TXZ:BOOL=OFF
 
 //Enable OpenMP
-ENABLE_OPENMP:BOOL=ON
+ENABLE_OPENMP:BOOL=OFF
 
 //Enable compiler warnings
 ENABLE_WARNINGS:BOOL=ON
@@ -498,7 +498,7 @@ ctegen2_BINARY_DIR:STATIC=/Users/ewright/hstcal_cs7a/_build/ctegen2
 ctegen2_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-ctegen2_LIB_DEPENDS:STATIC=general;hstio;general;tables;general;libomp;
+ctegen2_LIB_DEPENDS:STATIC=general;hstio;general;tables;
 
 //Value Computed by CMake
 ctegen2_SOURCE_DIR:STATIC=/Users/ewright/hstcal_cs7a/ctegen2

@@ -65,5 +65,5 @@ set(CMAKE_Fortran_OSX_DEPLOYMENT_TARGET_FLAG "-mmacosx-version-min=")
 
 set(CMAKE_Fortran_IMPLICIT_INCLUDE_DIRECTORIES "/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/finclude;/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/include;/Users/ewright/miniconda3/envs/hstcal/include;/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0/include-fixed")
 set(CMAKE_Fortran_IMPLICIT_LINK_LIBRARIES "gfortran;emutls_w;gcc;quadmath;m;emutls_w;gcc")
-set(CMAKE_Fortran_IMPLICIT_LINK_DIRECTORIES "/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0;/Users/ewright/miniconda3/envs/hstcal/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib")
+set(CMAKE_Fortran_IMPLICIT_LINK_DIRECTORIES "/Users/ewright/miniconda3/envs/hstcal/lib;/Users/ewright/miniconda3/envs/hstcal/lib/gcc/x86_64-apple-darwin13.4.0/12.3.0;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib")
 set(CMAKE_Fortran_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks")
